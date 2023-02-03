@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "eventos.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body style=" background-color: aqua;">
+
+    <br>
+    
+
+
+    <h1 class="text-center">Laboratorio 1</h1>
+    <h2 class="text-center">Alumnos: Melvin Josué Pereira Amaya.
+    </h2>
+    <br>
+    <h2 class="text-center">Alumnos:Melvin Adiel Vasquez Mejia.
+    </h2>
+
+    <br><br>
+    <br><br>
+    <br><br>
+    <!--<input type="text" id = "texto" placeholder="Nombre"><br><br>-->
+    
+    <div class="centrar">
+
+        <div class="tarjeta">
+            <div class="titulo">Evento onClick</div>
+            <div class="cuerpo">
+                <img src="/img/Eventos-em-Javascript-1200x1200.png" alt="muestra">
+            </div>
+            <button onclick="eventClick()" class="pie">onclick</button>
+        </div>
+        <br>
+    
+    
+        <div class="tarjeta" onmousemove="movimientoEvento()" onmouseout="me_sali()">
+            <div class="titulo" id = "titu">Evento onmousemove</div>
+            <div class="cuerpo">
+                <img src="/img/1215156829_preview_Sin título.png" id= "imagen" alt="muestra">
+                <p id = "texto2">¿Qué es Onmouseout?
+                    El evento onmouseout ocurre cuando el puntero del mouse se mueve fuera 
+                    de un elemento o fuera de uno de sus elementos secundarios.</p>
+            </div>
+            
+            <button  class="pie">onmousemove</button>
+        </div>
+        <br>
+
+    
+        <div class="tarjeta">
+            <div class="titulo">Evento onfocus</div>
+            <div class="cuerpo">
+                <input type="text" onfocus="focu()" id = "inpu" >
+            </div>
+            <button onclick="infocu()" class="pie" >Revertir</button>
+        </div>
+        <br>
+
+        <div class="tarjeta">
+            <div class="titulo">Evento onkeydown</div>
+            <div class="cuerpo">
+                <input type="text" onkeydown="keyDown()" >
+            </div>
+            <button  class="pie">onkeydown</button>
+        </div>
+        <br>
+    
+        
+    </div>
+
+    <br><br><br>
+
+
+    
+
+
+    
+        
+    
+</body>
+</html>
